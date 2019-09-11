@@ -1,8 +1,4 @@
-package sample_java_project;
-
-// A simple java program to find what is your birth date
-// @Copyrigth to Yash Badia
-//do not simply copy it.
+// A simple java program to find what is your Bithday.
 import java.util.*;
 
 public class guess_birth_date {
@@ -40,8 +36,7 @@ public class guess_birth_date {
 		System.out.println("Is your birth date in this set\n" + set1);
 		System.out.println("Press yes or no");
 		str = scanner.nextLine();
-		if (str.equals("y")) { // we cannot use '==' to compare the two
-									// strings
+		if (str.equals("y")) {					
 			date += 1;
 		}
 		System.out.println("Is your birth date in this set\n" + set2);
